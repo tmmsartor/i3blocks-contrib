@@ -56,7 +56,7 @@ if ($status eq 'Discharging') {
 		$ac_adapt = $1;
 
 		if ($ac_adapt eq 'on-line') {
-			$full_text .= ' CHR';
+			$full_text .= ' IDL';
 		} elsif ($ac_adapt eq 'off-line') {
 			$full_text .= ' DIS';
 		}
